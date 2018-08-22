@@ -13,7 +13,6 @@ The dependencies required should be included in the repository. Future colaborat
 * [passport](http://www.passportjs.org/) - Middleware for processing web token authentication 
 * passport-local
 * passport-local-mongoose
-* [redis](http://redis.js.org/) - Performance/caching
 
 ### Dev Dependencies
 * babel-cli
@@ -26,7 +25,7 @@ The dependencies required should be included in the repository. Future colaborat
 * cors (testing, may not be included in future releases)
 
 ### Future Dependencies Proposed
-* redis
+* [redis](http://redis.js.org/) - Performance/caching
 
 While the development build of the TrackPack API relies on nodemon for monitoring changes, the production environment relies on the pm2 package; which can be seen in package.json.
 
