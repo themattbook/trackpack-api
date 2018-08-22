@@ -32,13 +32,13 @@ While the development build of the TrackPack API relies on nodemon for monitorin
 ### Deploying
 There are a few scripts configured in package.json of the TrackPack API. Each is designed to serve as a tool to assist the transistion from dev to production with no issues. [PM2](https://pm2.keymetrics.io/) is required for production deployment.
 
-#### `npm run lint` 
+##### `npm run lint` 
 This will run the eslint package, testing the source code for errors. `eslintConfig` specifies ECMAScript v7 and warns us of any unused variables. When running the lint script, expect to see 13 unused variable warnings.
-#### `npm run test` 
+##### `npm run test` 
 This will just return an error at this time, but can be configured for various testing patterns in the future.
-#### `npm run build` 
+##### `npm run build` 
 Self-explanatory.
-#### `npm run dev` 
+##### `npm run dev` 
 This will start the API in developer mode, with nodemon and babel-node.
-#### `npm start`
+##### `npm start`
 This will place the API in production mode and start via PM2.
